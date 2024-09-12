@@ -22,7 +22,7 @@ int main (void)
         // If the character is a digit
         if (c >= '0' && c <= '9')
         {
-            ++ndigit[c-'0'];    // Increment the count for that digit
+            ++ndigit[c - '0'];    // Increment the count for that digit (subtracting 0 from c converts it into its corresponding int)
         }
         
         // If the character is a space, a newline, or a tab
