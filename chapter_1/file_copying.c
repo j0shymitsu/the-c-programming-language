@@ -21,12 +21,10 @@
 int main(void)
 {
     int c;
+    int eof = EOF;              // -1
 
-    while ((c = getchar()) != EOF)
-    {
+    while((c = getchar()) != EOF)
         putchar(c);
-        printf("%d", EOF);
-    }
 
     return 0;
 }
